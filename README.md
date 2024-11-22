@@ -1,16 +1,13 @@
-# animation_demo
+# TeamApt Assessment
 
-A new Flutter project.
+A teamAPT flutter assessment
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+How to run project
 
-A few resources to get you started if this is your first Flutter project:
+git clone https://github.com/magicfinger123/teamApt_Animation_Assessment.git
+open project folder with vs code or android studio .
+run flutter pub get to get project dependencies.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+run flutter flutter run on the root of the project in terminal.
