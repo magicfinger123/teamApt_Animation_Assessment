@@ -27,7 +27,7 @@ Text txtR(title, size,
     {weight = FontWeight.w400,
       maxLines = 1,
       textAlign = TextAlign.start,
-      color = AppColors.b10,height=null}) {
+      color = AppColors.b10,height}) {
   return Text(
     title,
     style: GoogleFonts.mulish(
@@ -78,7 +78,7 @@ Container horizontalCircleDetails({required double width,required double height,
       ),
       Container(
         width: 40.h,height: 40.h,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: AppColors.white,
           shape: BoxShape.circle,
         ),

@@ -40,3 +40,19 @@ disposeHomeAnimationsControllers() {
   slideBtmSheetController.dispose();
   homeAnimationUsed = false;
 }
+void startHomeAnimations() {
+  widthAniController1.forward();
+  sizeAniController1.forward();
+  Future.delayed( Duration(milliseconds: time1), () {
+    textController.forward();
+    textController2.forward();
+    Future.delayed( Duration(milliseconds: time1), () {
+      circleOrSquareController.forward();
+      Future.delayed( const Duration(seconds: 2), () {
+        slideBtmSheetController.forward();
+        horizontalCircleController.forward();
+      });
+    });
+  });
+  homeAnimationUsed = true;
+}

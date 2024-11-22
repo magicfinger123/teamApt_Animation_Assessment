@@ -3,7 +3,7 @@ import 'package:animation_demo/utility/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import 'BottomNav.dart';
+import 'screens/Nav/BottomNav.dart';
 
 void main() {
   runApp(const MyApp());
@@ -77,8 +77,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   color: Colors.orange,
                 borderRadius: BorderRadius.circular(20.r)
               ),
-                child: Center(
-                  child: const Text(
+                child: const Center(
+                  child: Text(
                     'View page',
                     style: TextStyle(
                       color: Colors.white,

@@ -1,5 +1,5 @@
-import 'package:animation_demo/screens/home_screen.dart';
-import 'package:animation_demo/screens/searchMapScreen.dart';
+import 'package:animation_demo/screens/home/home_screen.dart';
+import 'package:animation_demo/screens/map/searchMapScreen.dart';
 import 'package:animation_demo/utility/animationControllers.dart';
 import 'package:animation_demo/utility/colors.dart';
 import 'package:animation_demo/utility/constants.dart';
@@ -34,9 +34,6 @@ class _BottomNavState extends State<BottomNav> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
-
-
-
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 800),
